@@ -7,6 +7,8 @@ import ContactUs from "./pages/contactUsPages/ContactUs";
 import Footer from "./components/Footer/Footer";
 import KathaSection from "./components/kathaSection/Katha";
 import KathaDetails from "./components/kathaSection/kathaDetails/KathaDetails";
+import LoginSignupForm from "./components/LoginSignupForm/LoginSignupForm";
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/katha" element={<KathaSection />} />
         <Route path="/katha-details/:id" element={<KathaDetails />} />
+        <Route path="/ling" element={<LoginSignupForm />} />
       </Routes>
       <Footer />
     </Router>

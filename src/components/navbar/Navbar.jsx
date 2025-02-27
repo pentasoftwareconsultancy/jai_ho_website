@@ -47,7 +47,7 @@ export default function Navbar() {
           {/* Right Section: Login & Signup Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <NavLink
-              to="/login"
+              to="/ling"
               className="px-4 py-2 text-gray-600 rounded-md border border-orange-500 hover:bg-orange-300"
             >
               Login
