@@ -8,6 +8,11 @@ import Footer from "./components/Footer/Footer";
 import KathaSection from "./components/kathaSection/Katha";
 import KathaDetails from "./components/kathaSection/kathaDetails/KathaDetails";
 import LoginSignupForm from "./components/LoginSignupForm/LoginSignupForm";
+import TestimonalPage from "./pages/testimonalPage/TestimonalPage";
+import TestimonalsCardtext from "./components/testimonialss/texttestimonials/TestimonalsCardtext";
+import VideoTestimonial from "./components/homeCompanents/VideoTestimonial/VideoTestimonial";
+import Videoscard from "./components/testimonialss/vidoestestimonials/Videoscard";
+
 
 
 function App() {
@@ -20,7 +25,11 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/katha" element={<KathaSection />} />
         <Route path="/katha-details/:id" element={<KathaDetails />} />
-        <Route path="/ling" element={<LoginSignupForm />} />
+        <Route path="/login" element={<LoginSignupForm />} />
+        <Route path="/Testimonial" element={<TestimonalPage/>} />
+        <Route path="/Testimonaltext" element={<TestimonalsCardtext/>} />
+        <Route path="/Testimonalvideo" element={<Videoscard/>} />
+
       </Routes>
       <Footer />
     </Router>

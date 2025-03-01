@@ -1,0 +1,40 @@
+.container {
+    background-color: #282c34;
+    color: white;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    gap: 55px;
+  }
+  
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    border: solid;
+    width: 20%;
+  }
+  .container :hover{
+    background-color: aliceblue;
+color: #282c34; 
+ }
+
+
+
+  .text { border: solid;
+    font-size: 26px;
+    width: 20%;
+    font-weight: bold;
+
+    opacity: 0.8;
+  }
+  .crad{ 
+    font-weight: bold;
+
+    border: solid;
+    font-size: 26px;
+    width: 20%;
+    opacity: 0.8;
+  }

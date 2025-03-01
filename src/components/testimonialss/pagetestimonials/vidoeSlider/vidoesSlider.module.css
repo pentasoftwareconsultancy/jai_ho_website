@@ -1,0 +1,120 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+.box{text-align: center;
+  border-radius: 10%;
+  margin-left: 50%;
+  margin-top: 5%;
+  width: 8%;
+  height: 5vh;
+ font-size: xx-large;
+ /* border: solid; */
+ font-style: bold;
+ 
+}
+.card {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.imgContainer {
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+  position: relative;
+}
+
+.flag img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.review {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 16px;
+  color: gold;
+}
+
+.star {
+  font-size: 18px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.videoButton {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+}
+
+.testimonialText {
+  font-size: 14px;
+  margin: 10px 0;
+  color: #333;
+}
+
+.name {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 80%;
+  }
+
+  .imgContainer {
+    height: 180px;
+  }
+
+  .flag img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .review {
+    font-size: 14px;
+  }
+
+  .testimonialText {
+    font-size: 12px;
+  }
+
+  .videoButton {
+    font-size: 22px;
+    padding: 8px 18px;
+  }
+
+  .name {
+    font-size: 14px; 
+  }
+}
