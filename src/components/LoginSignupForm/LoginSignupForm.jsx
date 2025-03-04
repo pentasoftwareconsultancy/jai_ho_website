@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import styles from "./SignupForm.module.css";
-import "boxicons";
 
 const LoginSignupForm = () => {
   const [isActive, setIsActive] = useState(false);
