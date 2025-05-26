@@ -1,0 +1,81 @@
+// src/components/japa/data/japaData.js
+
+export const japaList = [
+  {
+    id: 1,
+    mantra: "ॐ नमः शिवाय",
+    category: "Spiritual",
+    targetCount: 108,
+    currentCount: 80,
+    duration: "10 MIN",
+    rating: 4.6,
+    timeLeft: "2 days left",
+    image: "https://i.pinimg.com/474x/09/2c/1b/092c1b2fda3b24b49e86183155e056fb.jpg",
+    progress: 74,
+    color: "green",
+  },
+  {
+    id: 2,
+    mantra: "हरे कृष्ण हरे राम",
+    category: "Chanting",
+    targetCount: 21,
+    currentCount: 15,
+    duration: "12 MIN",
+    rating: 4.5,
+    timeLeft: "3 weeks left",
+    image: "https://i.pinimg.com/474x/09/2c/1b/092c1b2fda3b24b49e86183155e056fb.jpg",
+    progress: 30,
+    color: "orange",
+  },
+  {
+    id: 3,
+    mantra: "ॐ हनुमते नमः",
+    category: "Devotion",
+    targetCount: 11,
+    currentCount: 5,
+    duration: "14 MIN",
+    rating: 4.7,
+    timeLeft: "3 weeks left",
+    image: "https://i.pinimg.com/474x/09/2c/1b/092c1b2fda3b24b49e86183155e056fb.jpg",
+    progress: 50,
+    color: "red",
+  },
+];
+
+export const japaDetailMap = {
+  1: {
+    id: 1,
+    mantra: "ॐ नमः शिवाय",
+    category: "Spiritual",
+    targetCount: 108,
+    currentCount: 0,
+    image: "https://i.pinimg.com/474x/09/2c/1b/092c1b2fda3b24b49e86183155e056fb.jpg",
+    audioUrl: "https://cdn.pixabay.com/download/audio/2022/03/15/audio_b6b712da0b.mp3?filename=om-mantra-6136.mp3",
+    completed: false,
+    lastChanted: new Date(),
+  },
+  2: {
+    id: 2,
+    mantra: "हरे कृष्ण हरे राम",
+    category: "Chanting",
+    targetCount: 21,
+    currentCount: 0,
+    image: "https://i.pinimg.com/474x/09/2c/1b/092c1b2fda3b24b49e86183155e056fb.jpg",
+    audioUrl: "https://cdn.pixabay.com/download/audio/2022/10/23/audio_c6dfd2e2d4.mp3?filename=hare-krishna-mantra-12345.mp3",
+    completed: false,
+    lastChanted: new Date(),
+  },
+  3: {
+    id: 3,
+    mantra: "ॐ हनुमते नमः",
+    category: "Devotion",
+    targetCount: 11,
+    currentCount: 0,
+    image: "https://i.pinimg.com/474x/09/2c/1b/092c1b2fda3b24b49e86183155e056fb.jpg",
+    audioUrl: "https://cdn.pixabay.com/download/audio/2022/02/11/audio_d7a2e55e0b.mp3?filename=om-hanumate-namah-2022.mp3",
+    completed: false,
+    lastChanted: new Date(),
+  },
+};
+
+export const countOptions = [1, 11, 21, 51, 108];

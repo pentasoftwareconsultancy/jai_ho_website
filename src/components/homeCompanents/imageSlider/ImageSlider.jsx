@@ -27,6 +27,7 @@ const ImageSlider = () => {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gray-100">
+     
       <div className="flex space-x-4 overflow-hidden w-full max-w-5xl px-4">
         {images.map((image) => (
           <motion.div
